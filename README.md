@@ -1,6 +1,6 @@
-# Terraform RENAME_ME module
+# Terraform VPC module
 
-TODO
+Terraform module for creating VPC and subnets with sensible defaults.
 
 ## Development
 
