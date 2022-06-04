@@ -41,7 +41,7 @@ variable "public_subnets" {
 variable "availability_zone_identifiers" {
   description = <<-EOS
     List of availability zone letter identfiers.
-    Current region is automatically prepended for VPC.
+    Current region is automatically prepended for AZ ID.
   EOS
 
   type    = list(string)
