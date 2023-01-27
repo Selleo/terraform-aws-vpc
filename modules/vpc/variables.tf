@@ -38,6 +38,13 @@ variable "public_subnets" {
   ]
 }
 
+variable "database_subnets" {
+  description = "List of database subnets."
+
+  type    = list(string)
+  default = []
+}
+
 variable "availability_zone_identifiers" {
   description = <<-EOS
     List of availability zone letter identfiers.
@@ -53,4 +60,3 @@ variable "single_nat_gateway" {
   type        = bool
   default     = true
 }
-

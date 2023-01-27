@@ -22,9 +22,10 @@ module "vpc" {
   name = module.info.id_as.name
   cidr = var.cidr
 
-  azs             = local.azs
-  private_subnets = var.private_subnets
-  public_subnets  = var.public_subnets
+  azs              = local.azs
+  private_subnets  = var.private_subnets
+  public_subnets   = var.public_subnets
+  database_subnets = var.database_subnets
 
   single_nat_gateway = var.single_nat_gateway
   enable_nat_gateway = true
