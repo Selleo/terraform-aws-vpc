@@ -42,6 +42,7 @@
 |------|-------------|
 | <a name="output_azs"></a> [azs](#output\_azs) | List of Availability Zones. |
 | <a name="output_cidr_block"></a> [cidr\_block](#output\_cidr\_block) | The CIDR block of the VPC. |
+| <a name="output_database_subnets"></a> [database\_subnets](#output\_database\_subnets) | List of database subnet IDs. |
 | <a name="output_id"></a> [id](#output\_id) | VPC ID. |
 | <a name="output_private_subnets"></a> [private\_subnets](#output\_private\_subnets) | List of private subnet IDs. |
 | <a name="output_private_subnets_cidr_blocks"></a> [private\_subnets\_cidr\_blocks](#output\_private\_subnets\_cidr\_blocks) | List of cidr\_blocks of private subnets. |
