@@ -28,9 +28,9 @@ output "public_subnets_cidr_blocks" {
   value       = module.vpc.public_subnets_cidr_blocks
 }
 
-output "database_subnets" {
-  description = "List of database subnet IDs."
-  value       = try(module.vpc.database_subnets)
+output "database_subnet_group" {
+  description = "Database subnet group"
+  value       = module.vpc.database_subnet_group
 }
 
 output "azs" {
