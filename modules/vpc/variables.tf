@@ -58,3 +58,9 @@ variable "single_nat_gateway" {
   type        = bool
   default     = false
 }
+
+variable "enable_nat_gateway" {
+  description = "Enable NAT gateway."
+  type        = bool
+  default     = false
+}

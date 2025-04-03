@@ -29,7 +29,7 @@ module "vpc" {
   database_subnets = var.database_subnets
 
   single_nat_gateway = var.single_nat_gateway
-  enable_nat_gateway = true
+  enable_nat_gateway = var.enable_nat_gateway
   enable_vpn_gateway = false
 
   tags = merge(
